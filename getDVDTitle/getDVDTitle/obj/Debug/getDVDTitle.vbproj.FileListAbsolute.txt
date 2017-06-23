@@ -1,0 +1,11 @@
+C:\Users\Don\AppData\Local\Temporary Projects\getDVDTitle\bin\Debug\getDVDTitle.exe.config
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\bin\Debug\getDVDTitle.exe.config
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Debug\getDVDTitle.vbprojResolveAssemblyReference.cache
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Debug\getDVDTitle.Resources.resources
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Debug\getDVDTitle.vbproj.GenerateResource.Cache
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Debug\getDVDTitle.xml
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\bin\Debug\getDVDTitle.exe
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\bin\Debug\getDVDTitle.pdb
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\bin\Debug\getDVDTitle.xml
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Debug\getDVDTitle.exe
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Debug\getDVDTitle.pdb
