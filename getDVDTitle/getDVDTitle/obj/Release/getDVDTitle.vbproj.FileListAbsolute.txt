@@ -7,3 +7,4 @@ C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\R
 C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Release\getDVDTitle.exe
 C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Release\getDVDTitle.xml
 C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Release\getDVDTitle.pdb
+C:\Users\Don\Documents\Visual Studio 2015\Projects\getDVDTitle\getDVDTitle\obj\Release\getDVDTitle.vbprojResolveAssemblyReference.cache

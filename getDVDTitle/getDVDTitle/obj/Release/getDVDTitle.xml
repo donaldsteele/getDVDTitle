@@ -27,5 +27,12 @@ getDVDTitle
   Looks up a localized resource of type System.Byte[].
 </summary>
 </member>
+<member name="T:getDVDTitle.Module1">
+ <summary>
+ getDVdTitle - Attempt to get the movie title of a dvd in your dvd drive. only works for single title dvd's 
+ Created by Don Steele https://github.com/donaldsteele
+ released under the MIT License 
+ </summary>
+</member>
 </members>
 </doc>

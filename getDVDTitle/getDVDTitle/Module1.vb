@@ -10,8 +10,8 @@ Module Module1
 
     Function Main(args As String()) As Integer
         Try
-            Dim dvdDrive As String
-
+            Dim dvdDrive As DriveInfo 
+            Dim ProperTitle As string
             If args.Count <> 1 Then
                 DisplayHelp()
                 Return -1
@@ -23,11 +23,17 @@ Module Module1
             End If
             dvdDrive = validateDVDdrive(args(0))
 
-            If dvdDrive = vbNullString Then
+            If dvdDrive Is Nothing Then
                 DisplayHelp()
                 Return -3
             End If
-            Console.Write(parseMetadata(GetMetaData(getDVDid(dvdDrive))))
+
+            ProperTitle = parseMetadata(GetMetaData(getDVDid(dvdDrive.Name.Substring(0,2).ToUpper)))
+            If ProperTitle = "" Then
+                Console.Write(dvdDrive.VolumeLabel)
+                Else 
+                Console.Write(ProperTitle)
+            End If
             Return 0
         Catch e As Exception
             Console.WriteLine(e.Message)
@@ -46,17 +52,17 @@ Module Module1
 
     End Sub
 
-    Function validateDVDdrive(argDrive As String) As String
+    Function validateDVDdrive(argDrive As String) As DriveInfo
         If argDrive.Length = 2 Then
             For Each drive In System.IO.DriveInfo.GetDrives()
                 If drive.DriveType = System.IO.DriveType.CDRom Then
                     If argDrive.ToUpper = drive.Name.Substring(0, 2).ToUpper Then
-                        Return argDrive.ToUpper
+                        Return drive
                     End If
                 End If
             Next
         End If
-        Return vbNullString
+        Return Nothing 
     End Function
 
 
